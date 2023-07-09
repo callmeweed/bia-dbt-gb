@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sanguine-casing-386907",
+  "private_key_id": "faf8656219c7564905de53082643ff45c935c189",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7i3j/rPi3WdiT\newBszKaB54UqM9WFXBA5W70+tusLEqQ+7e01EO0qbV8xKghteU5rkr8H2elCNhyA\nutgE3W17Rn3plNygjTnukyAR1GfOUSi7nUo7EoFGaz4nRxbUYjxJkk4ZNuvy/xFh\nP0UzVJHgcydKb72QkqTgje2k90acIxC809YMNwUEosvI8MKSP5IxeF9Ttq4WTc/F\n8/fiAdPijtMpZ805YnmkF0oscYz7ShYXMH2o4rjoCgG5JIoukbatPiV+Hx2B6RNW\nd1H0zqsOEUlXpB28Fj14fyDqrETSO/Zj8LIWthVZ7xLCur5LHxJfO8blGtvYK9Br\n3u+yP3qvAgMBAAECggEAWg29ux9mijwFJ8P/Tz7xkR0Hr10WYSP00mX/uBaDRFze\nKy16ImoPR7ke5W+mflKqWjMrsWxsehObmiCdy7A7et89ZKTLT/igYbOZyZXxhnso\nEPaVB0p6csLaJGgZSUAmbLlo8OiTYaoiwUxtQRmRtnH04uRG5R3VN9JO01C9Qgkt\nukhpPDMCdyg4SU55zSgrrcfR1nFbJXPn95VbaMrIY/UPnlOpBRv/aQbBrnZM4Xwa\noTF6i29NDXPCI838r6TMBo9CdSwLUZ6q8R6iTqwbAs4ZPZb+Zg422wp7ZHwaEYQY\nL6Sk03n0qCLWeOxhA/BA7GmR7/hxXLwddpyDml1qwQKBgQDl/WWSe3viig8iYnQd\nYykf+pWLWi+gj6rNjyrX4Wj/lajCchdTosR6UkENuF/F7UZEXMEA6HX/dMVe1IkY\nsyNcc47wc9TtQYuXuM0uBsEDaGcfOTZLLb/GXqM6Ybv5Z5UuurdKOAKAYBzmsWtW\n0u5BSaRUm3jPpksoyPJa0y/ezwKBgQDQwTgjO2BuqWFFHbR/zGsqT0M26QtjV+7v\n7kJzR21BvhXUS1pGWRFUvKPJCl8li136eVi4OBmMXj+zoVaC83NmGXnErzCqPxih\nwzgb1UVTP1FIAE+0888Cn0UjrYJxfdDyLTdBGPt6V1Y49JQe9bHz43fIPuRHr0AJ\nNbAMHXCeIQKBgDxW0NEviH8UzYet4Nzc6Ss0qQtYa+pqBtvLVegxgUSc1Ru+pxQQ\nPhABiIO6/ZWF/Mtuskw0sNCGqEmK5TUPupVE1BmNqi1c5uy1VU9gAj+MopF0hyQO\nKqQ2rAhjH9f9LwyFfBUCwNVBYhO8NHcg+9UxJuXzrCx+anWW0s61XXfNAoGAWXZU\nzpSFsScZrnsafaJnUsyBK6kX3k0y8tQS2kCEDCagSEi6uWc2TDBDqMavG/HsJomW\ngexY1pUVi6/a2WfnzpugWbASlQNRVRHKm/L8ML7z4H1xq0TJNIB5Kt8TBfw7bW3/\nPgCs1TNUmjgGunXk+3ZCQSjiv+3U7Z16gtajCsECgYEAmNS8Z0VuKruarSoCn4Mj\nWNcCp4RGNP1sKz8VZsTkjTQ51zmheZk0tjn+LRC2LH0gMuybXp5ADk+/FiHGuZ4S\nT1llz1XIWcVhSbsW/YcS9ejhLv/hCVuZLFIlaytbzK2rmVc0kPNntYssoDetSRWh\nxT5JLdUTH/sG1PDrWhDvxH4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bia-dbt-gb@sanguine-casing-386907.iam.gserviceaccount.com",
+  "client_id": "105840959158497221172",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bia-dbt-gb%40sanguine-casing-386907.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,14 @@
+sales:
+  outputs:
+    dev:
+      dataset: SalesDataset
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: keyfile.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: sanguine-casing-386907
+      threads: 1
+      type: bigquery
+  target: dev
