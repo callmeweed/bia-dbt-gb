@@ -21,7 +21,7 @@ transform_fact as (
         b.date_key,
         c.product_key,
         d.customer_key,
-        a.QuantityOrdered,
+        cast(a.QuantityOrdered as INT64) as QuantityOrdered,
         cast(a.QuantityOrdered as FLOAT64)*cast(a.PriceEach as FLOAT64) as revenue,
     from source_data a 
         join date_data b on a.OrderDate = b.OrderDate
