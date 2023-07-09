@@ -40,6 +40,6 @@ transform_weekdays as (
 )
 {# weekday chủ nhật: 1 -> thứ 7: 7 #}
 select 
-    concat(SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(0)], '/') [SAFE_OFFSET(1)], SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(0)], '/') [SAFE_OFFSET(0)], concat('20' ,SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(0)], '/') [SAFE_OFFSET(2)]), SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(1)], ':') [SAFE_OFFSET(0)],  SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(1)], ':') [SAFE_OFFSET(1)]) as date_id,
+    concat(SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(0)], '/') [SAFE_OFFSET(1)], SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(0)], '/') [SAFE_OFFSET(0)], concat('20' ,SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(0)], '/') [SAFE_OFFSET(2)]), SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(1)], ':') [SAFE_OFFSET(0)],  SPLIT(SPLIT(OrderDate, ' ')[SAFE_OFFSET(1)], ':') [SAFE_OFFSET(1)]) as date_key,
     * 
 from transform_weekdays

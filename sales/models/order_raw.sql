@@ -97,7 +97,7 @@ final as(
     select * from t12
 )
 
-select ROW_NUMBER() OVER () AS id,
+select ROW_NUMBER() OVER () AS order_detail_id,
     * 
 from final
 
