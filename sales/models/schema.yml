@@ -51,7 +51,7 @@ models:
   - name: fact_sales_order
     description: "City of customer"
     columns:
-      - name: order_id
+      - name: order_detail_id
         description: "The primary key for this table"
         tests:
           - unique
@@ -60,7 +60,7 @@ models:
   - name: order_raw
     description: "data raw"
     columns:
-      - name: id
+      - name: order_detail_id
         description: "The primary key for this table"
         tests:
           - unique

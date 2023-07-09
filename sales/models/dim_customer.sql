@@ -4,14 +4,16 @@ with source_data as (
 ), 
 
 transform_address as (
-    SELECT SPLIT(PurchaseAddress, ', ')[SAFE_OFFSET(0)] AS street_address, 
+    SELECT PurchaseAddress,
+    SPLIT(PurchaseAddress, ', ')[SAFE_OFFSET(0)] AS street_address, 
         SPLIT(PurchaseAddress, ', ')[SAFE_OFFSET(1)] AS city, 
         SPLIT(SPLIT(PurchaseAddress, ', ')[SAFE_OFFSET(2)], ' ')[SAFE_OFFSET(1)]  AS zipcode
     from source_data
 ),
 
 match_dim_city as (
-    select a.street_address,
+    select a.PurchaseAddress,
+    a.street_address,
         b.city_key
     from transform_address a 
         join {{ ref('dim_city')}} b
