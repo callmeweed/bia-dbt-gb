@@ -1,6 +1,6 @@
 with source_data as (
     select distinct PurchaseAddress
-    from `SalesDataset.order_raw`
+    from {{ ref('order_raw')}}
 ), 
 
 transform_city as (
@@ -15,7 +15,7 @@ match_dim_state as (
         b.state_key,
         a.zipcode
     from transform_city a 
-        join `SalesDataset.dim_state` b
+        join {{ ref('dim_state')}} b
             on a.state_name = b.state_name
 ),
 
