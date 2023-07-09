@@ -1,0 +1,67 @@
+
+version: 2
+
+models:
+  - name: dim_state
+    description: "State of customer"
+    columns:
+      - name: state_key
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_city
+    description: "City of customer"
+    columns:
+      - name: city_key
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_customer
+    description: "Customer"
+    columns:
+      - name: customer_key
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_product
+    description: "Product"
+    columns:
+      - name: product_key
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: "Date"
+    columns:
+      - name: date_key
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+
+  - name: fact_sales_order
+    description: "City of customer"
+    columns:
+      - name: order_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  
+  - name: order_raw
+    description: "data raw"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
