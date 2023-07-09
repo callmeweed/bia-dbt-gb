@@ -1,6 +1,6 @@
 with source_data as (
     select distinct PurchaseAddress
-    from `SalesDataset.order_raw`
+    from {{ ref('order_raw')}}
 ), 
 
 transform_state1 as(
