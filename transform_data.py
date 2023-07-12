@@ -17,7 +17,7 @@ def read_data(path):
     return merged_df
 
 def transform_data(df):
-    df['Datekey'] = df['OrderDate'].apply(lambda x: x.split(' ')[0].replace('/', ''))
+    df['Datekey'] = df['OrderDate'].apply(lambda x: x.split(' ')[0]).astype('str')
     df['Revenue'] = df['PriceEach'].astype('float') * df['QuantityOrdered'].astype('int')
     df['QuantityOrdered'] = df['QuantityOrdered'].astype('int')
     grouped_quantity = df.groupby(['Datekey', 'Product'])['QuantityOrdered'].sum()
@@ -35,5 +35,6 @@ if __name__ == '__main__':
     print(df)
     with open(f'{path}/transformed_data.json', 'w') as f:
         df.to_json(f, orient='records')
+        print(df)
         f.close()
         
